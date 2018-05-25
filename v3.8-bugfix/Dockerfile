@@ -1,4 +1,4 @@
-FROM kevinwmatthews/cmake:3.5.1
+FROM kevinwmatthews/docker-cmake:3.5.1-latest
 
 RUN cd \
     && git clone https://github.com/cpputest/cpputest.git \
