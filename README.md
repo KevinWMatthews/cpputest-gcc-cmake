@@ -1,12 +1,23 @@
-# Docker CppUTest
+# CppUTest
 
-A Docker image with CppUTest, gcc, and CMake installed.
+A Docker image with CppUTest, gcc8, and CMake installed.
 
-## Background
 
-Images can be built from tags in the CppUTest repo (for example, v3.8)
-or from a specific git commit to incorporate bugfixes (e.g. v3.8-bugfix).
-CppUTest is installed to `/usr/local`.
+## Tags and `Dockerfile` Links
+
+Images are tagged with the CppUTest version first and, if a bleeding edge build,
+the exact SHA. For example, `CppUTest v3.8` is tagged with `v3.8` while a build
+with bugfixes after v3.8 could be `v3.8-2b45d38`. 
+
+  * [cpputest-gcc8-cmake3.13.1:v3.8]()
+  * [cpputest-gcc8-cmake3.13.1:v3.8-2b45d38]()
+
+These images are updated as changes are make to the Dockerfiles.
+
+Additionally, images are tagged with a date stamp `YYYMMDD:
+
+  * cpputest-gcc8-cmake3.13.1:v3.8-2b45d38-2018120
+
 
 ## Build
 

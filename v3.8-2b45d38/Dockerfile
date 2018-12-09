@@ -3,7 +3,7 @@ FROM kevinwmatthews/gcc-cmake:8-3.13.1 as build_cpputest
 WORKDIR /usr/src
 RUN git clone https://github.com/cpputest/cpputest.git
 WORKDIR cpputest/cpputest_build
-RUN git checkout v3.8
+RUN git checkout 2b45d38c5c3dd71447bfe0ae993786a6da898658
 RUN cmake -DC++11=ON -DTESTS=OFF ..
 RUN make && make install
 
