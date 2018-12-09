@@ -9,12 +9,12 @@ Images are tagged with the CppUTest version first and, if a bleeding edge build,
 the exact SHA. For example, `CppUTest v3.8` is tagged with `v3.8` while a build
 with bugfixes after v3.8 could be `v3.8-2b45d38`. 
 
-  * [cpputest-gcc-cmake:v3.8]()
-  * [cpputest-gcc-cmake:v3.8-2b45d38]()
+  * [cpputest-gcc-cmake:v3.8](https://github.com/KevinWMatthews/cpputest-gcc-cmake/blob/v3.8/v3.8/Dockerfile)
+  * [cpputest-gcc-cmake:v3.8-2b45d38](https://github.com/KevinWMatthews/cpputest-gcc-cmake/blob/v3.8-2b45d38/v3.8-2b45d38/Dockerfile)
 
 These images are updated as changes are make to the Dockerfiles.
 
-Additionally, images are tagged with a date stamp `YYYMMDD:
+Additionally, images are tagged with a date stamp `YYYMMDD`:
 
   * cpputest-gcc-cmake:v3.8-2b45d38-2018120
 
