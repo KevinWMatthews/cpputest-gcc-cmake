@@ -16,7 +16,7 @@ These images are updated as changes are make to the Dockerfiles.
 
 Additionally, images are tagged with a date stamp `YYYMMDD`:
 
-  * [cpputest-gcc-cmake:v3.8-2b45d38-2018120](https://github.com/KevinWMatthews/cpputest-gcc-cmake/blob/v3.8-2b45d38-2018120/v3.8-2b45d38/Dockerfile)
+  * [cpputest-gcc-cmake:v3.8-2b45d38-20181209](https://github.com/KevinWMatthews/cpputest-gcc-cmake/blob/v3.8-2b45d38-20181209/v3.8-2b45d38/Dockerfile)
 
 
 ## Build In Container
